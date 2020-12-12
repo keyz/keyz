@@ -1,0 +1,20 @@
+{
+  "name": "gen",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --loader @swc-node/register/esm ./scripts/build.ts",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.6.8",
+    "@types/node": "^18.19.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "dependencies": {
+    "prettier": "^3.1.1"
+  }
+}
